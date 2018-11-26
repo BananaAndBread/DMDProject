@@ -10,4 +10,4 @@ services:
       POSTGRES_DATABASE: dmd_project
       POSTGRES_PASSWORD: dmd_project
     volumes:
-      - ./database.sql:/docker-entrypoint-initdb.d/schema_and_data.sql
+      - ./dump_2018-11-26_23-43.sql:/docker-entrypoint-initdb.d/schema_and_data.sql
