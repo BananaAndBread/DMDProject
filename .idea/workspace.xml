@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd7706ac-e0f7-4eb4-a2d6-6d8ab77f22ea" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DMDproject$interface.coverage" NAME="interface Coverage Results" MODIFIED="1543159918177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DMDproject$db_requests.coverage" NAME="db_requests Coverage Results" MODIFIED="1543178182677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dmd_project@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dmd_project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dmd_project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dmd_project: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dmd_project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dmd_project: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="dmd_project@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dmd_project: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1197861266">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ipynb" value="1" />
+          <entry key="public" value="1" />
+          <entry key="py" value="5" />
+          <entry key="sql" value="3" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IPNB" value="1" />
+          <entry key="Python" value="5" />
+          <entry key="SQL" value="2" />
+          <entry key="Scratch" value="1" />
+          <entry key="UML" value="1" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="10763" />
+          <entry key="sql" value="3793" />
+          <entry key="txt" value="14" />
+          <entry key="yml" value="284" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="10583" />
+          <entry key="SQL" value="182" />
+          <entry key="Scratch" value="3791" />
+          <entry key="YAML" value="284" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DMDproject" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94ec6b18-40bf-4df7-b6ad-f7e827774291/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="178" column="23" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_requests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+              <folding>
+                <marker date="1543179029189" expanded="true" signature="280:330" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+              <folding>
+                <marker date="1543168970448" expanded="true" signature="3296:3541" ph="..." />
+                <marker date="1543168970448" expanded="true" signature="3553:3578" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2232">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/psycopg2/extras.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6177">
+              <caret line="245" selection-start-line="245" selection-end-line="245" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/psycopg2/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3625">
+              <caret line="143" selection-start-line="143" selection-end-line="143" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/94ec6b18-40bf-4df7-b6ad-f7e827774291.SCHEMA:dmd_project.public">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>94ec6b18-40bf-4df7-b6ad-f7e827774291.SCHEMA:dmd_project.public</OriginalElement>
+              <nodes>
+                <node x="1078.25" y="259.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars</node>
+                <node x="1174.0514705882351" y="910.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.providers</node>
+                <node x="1898.0514705882351" y="1414.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.payments</node>
+                <node x="1133.75" y="0.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_cars</node>
+                <node x="0.0" y="283.5">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshops</node>
+                <node x="2477.051470588235" y="885.5">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charges</node>
+                <node x="2039.8014705882351" y="210.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.users</node>
+                <node x="61.5" y="1439.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part</node>
+                <node x="3200.551470588235" y="332.5">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_plugs</node>
+                <node x="785.0514705882352" y="910.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts</node>
+                <node x="1064.7941176470588" y="1414.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part</node>
+                <node x="1631.0514705882351" y="665.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders</node>
+                <node x="2608.551470588235" y="283.5">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations</node>
+                <node x="2955.801470588235" y="935.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations_has_type_of_plug</node>
+                <node x="553.9999999999999" y="1414.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repair_used_car_part</node>
+                <node x="297.05147058823513" y="861.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repairs</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars">
+                  <point x="-206.5" y="-349.5" />
+                  <point x="1837.5514705882351" y="645.0" />
+                  <point x="1288.25" y="645.0" />
+                  <point x="0.0" y="153.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
+                  <point x="116.25" y="-79.5" />
+                  <point x="410.25" y="1394.0" />
+                  <point x="846.5514705882352" y="1394.0" />
+                  <point x="-123.0" y="104.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations_has_type_of_plug" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations">
+                  <point x="-130.25" y="-79.5" />
+                  <point x="3086.051470588235" y="645.0" />
+                  <point x="3037.551470588235" y="645.0" />
+                  <point x="143.0" y="129.0" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.providers">
+                  <point x="99.75" y="-104.5" />
+                  <point x="1364.0441176470588" y="1394.0" />
+                  <point x="1392.5514705882351" y="1394.0" />
+                  <point x="0.0" y="104.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repair_used_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
+                  <point x="99.75" y="-104.5" />
+                  <point x="853.2499999999999" y="1394.0" />
+                  <point x="969.5514705882352" y="1394.0" />
+                  <point x="0.0" y="104.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charges" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars">
+                  <point x="-91.5" y="-129.0" />
+                  <point x="2568.551470588235" y="635.0" />
+                  <point x="1428.25" y="635.0" />
+                  <point x="140.0" y="153.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.payments" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders">
+                  <point x="0.0" y="-104.5" />
+                  <point x="0.0" y="349.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
+                  <point x="-99.75" y="-104.5" />
+                  <point x="1164.5441176470588" y="1394.0" />
+                  <point x="1092.5514705882351" y="1394.0" />
+                  <point x="123.0" y="104.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_cars">
+                  <point x="0.0" y="-153.5" />
+                  <point x="0.0" y="80.0" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repair_used_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repairs">
+                  <point x="-99.75" y="-104.5" />
+                  <point x="653.7499999999999" y="1384.0" />
+                  <point x="531.0514705882351" y="1384.0" />
+                  <point x="0.0" y="153.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.users">
+                  <point x="206.5" y="-349.5" />
+                  <point x="2250.551470588235" y="645.0" />
+                  <point x="2278.301470588235" y="645.0" />
+                  <point x="0.0" y="202.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charges" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations">
+                  <point x="91.5" y="-129.0" />
+                  <point x="-143.0" y="129.0" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repairs" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars">
+                  <point x="117.0" y="-153.5" />
+                  <point x="648.0514705882351" y="645.0" />
+                  <point x="1148.25" y="645.0" />
+                  <point x="-140.0" y="153.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations_has_type_of_plug" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_plugs">
+                  <point x="130.25" y="-79.5" />
+                  <point x="0.0" y="80.0" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repairs" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshops">
+                  <point x="-117.0" y="-153.5" />
+                  <point x="414.05147058823513" y="645.0" />
+                  <point x="362.25" y="645.0" />
+                  <point x="120.75" y="129.0" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshops">
+                  <point x="-116.25" y="-79.5" />
+                  <point x="177.75" y="645.0" />
+                  <point x="120.75" y="645.0" />
+                  <point x="-120.75" y="129.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.13745704467353953" x="1735.9999999999998" y="811.5" />
+              <SelectedNodes>
+                <node>94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>differenc</find>
+      <find>payment</find>
+      <find>char</find>
+      <find>types</find>
+      <find>workshop_has_car_part</find>
+      <find>repair</find>
+      <find>car_part</find>
+      <find>cha</find>
+      <find>charges</find>
+      <find>end_time</find>
+      <find>charging</find>
+      <find>morni</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/database.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/94ec6b18-40bf-4df7-b6ad-f7e827774291/console.sql" />
+        <option value="$PROJECT_DIR$/interface.py" />
+        <option value="$PROJECT_DIR$/db_requests.py" />
+        <option value="$PROJECT_DIR$/Untitled.ipynb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1001" />
+    <option name="y" value="1287" />
+    <option name="width" value="1579" />
+    <option name="height" value="1171" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DMDproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DMDproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DMDproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="DMDproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="DMDproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="94ec6b18-40bf-4df7-b6ad-f7e827774291" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.db_requests">
+    <configuration name="db_requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DMDproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db_requests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DMDproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.db_requests" />
+      <item itemvalue="Python.interface" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.db_requests" />
+        <item itemvalue="Python.interface" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd7706ac-e0f7-4eb4-a2d6-6d8ab77f22ea" name="Default Changelist" comment="" />
+      <created>1542812507771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542812507771</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="995" y="743" width="1579" height="1171" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49949136" visible="true" weight="0.27236044" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50050867" side_tool="true" weight="0.14990266" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970768" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48580787" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3919214" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3229096" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32970768" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970768" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.0" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49949136" weight="0.24983777" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50050867" side_tool="true" weight="0.14990266" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970768" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32411885" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39292997" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3229096" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970768" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.5685328" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/psycopg2/extras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6177">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/psycopg2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3625">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/94ec6b18-40bf-4df7-b6ad-f7e827774291.SCHEMA:dmd_project.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>94ec6b18-40bf-4df7-b6ad-f7e827774291.SCHEMA:dmd_project.public</OriginalElement>
+          <nodes>
+            <node x="1078.25" y="259.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars</node>
+            <node x="1174.0514705882351" y="910.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.providers</node>
+            <node x="1898.0514705882351" y="1414.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.payments</node>
+            <node x="1133.75" y="0.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_cars</node>
+            <node x="0.0" y="283.5">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshops</node>
+            <node x="2477.051470588235" y="885.5">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charges</node>
+            <node x="2039.8014705882351" y="210.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.users</node>
+            <node x="61.5" y="1439.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part</node>
+            <node x="3200.551470588235" y="332.5">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_plugs</node>
+            <node x="785.0514705882352" y="910.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts</node>
+            <node x="1064.7941176470588" y="1414.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part</node>
+            <node x="1631.0514705882351" y="665.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders</node>
+            <node x="2608.551470588235" y="283.5">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations</node>
+            <node x="2955.801470588235" y="935.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations_has_type_of_plug</node>
+            <node x="553.9999999999999" y="1414.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repair_used_car_part</node>
+            <node x="297.05147058823513" y="861.0">94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repairs</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars">
+              <point x="-206.5" y="-349.5" />
+              <point x="1837.5514705882351" y="645.0" />
+              <point x="1288.25" y="645.0" />
+              <point x="0.0" y="153.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
+              <point x="116.25" y="-79.5" />
+              <point x="410.25" y="1394.0" />
+              <point x="846.5514705882352" y="1394.0" />
+              <point x="-123.0" y="104.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations_has_type_of_plug" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations">
+              <point x="-130.25" y="-79.5" />
+              <point x="3086.051470588235" y="645.0" />
+              <point x="3037.551470588235" y="645.0" />
+              <point x="143.0" y="129.0" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.providers">
+              <point x="99.75" y="-104.5" />
+              <point x="1364.0441176470588" y="1394.0" />
+              <point x="1392.5514705882351" y="1394.0" />
+              <point x="0.0" y="104.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repair_used_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
+              <point x="99.75" y="-104.5" />
+              <point x="853.2499999999999" y="1394.0" />
+              <point x="969.5514705882352" y="1394.0" />
+              <point x="0.0" y="104.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charges" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars">
+              <point x="-91.5" y="-129.0" />
+              <point x="2568.551470588235" y="635.0" />
+              <point x="1428.25" y="635.0" />
+              <point x="140.0" y="153.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.payments" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders">
+              <point x="0.0" y="-104.5" />
+              <point x="0.0" y="349.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
+              <point x="-99.75" y="-104.5" />
+              <point x="1164.5441176470588" y="1394.0" />
+              <point x="1092.5514705882351" y="1394.0" />
+              <point x="123.0" y="104.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_cars">
+              <point x="0.0" y="-153.5" />
+              <point x="0.0" y="80.0" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repair_used_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repairs">
+              <point x="-99.75" y="-104.5" />
+              <point x="653.7499999999999" y="1384.0" />
+              <point x="531.0514705882351" y="1384.0" />
+              <point x="0.0" y="153.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.users">
+              <point x="206.5" y="-349.5" />
+              <point x="2250.551470588235" y="645.0" />
+              <point x="2278.301470588235" y="645.0" />
+              <point x="0.0" y="202.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charges" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations">
+              <point x="91.5" y="-129.0" />
+              <point x="-143.0" y="129.0" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repairs" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars">
+              <point x="117.0" y="-153.5" />
+              <point x="648.0514705882351" y="645.0" />
+              <point x="1148.25" y="645.0" />
+              <point x="-140.0" y="153.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations_has_type_of_plug" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_plugs">
+              <point x="130.25" y="-79.5" />
+              <point x="0.0" y="80.0" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repairs" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshops">
+              <point x="-117.0" y="-153.5" />
+              <point x="414.05147058823513" y="645.0" />
+              <point x="362.25" y="645.0" />
+              <point x="120.75" y="129.0" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshops">
+              <point x="-116.25" y="-79.5" />
+              <point x="177.75" y="645.0" />
+              <point x="120.75" y="645.0" />
+              <point x="-120.75" y="129.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.13745704467353953" x="1735.9999999999998" y="811.5" />
+          <SelectedNodes>
+            <node>94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2232">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94ec6b18-40bf-4df7-b6ad-f7e827774291/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="178" column="23" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_requests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+          <folding>
+            <marker date="1543179029189" expanded="true" signature="280:330" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+          <folding>
+            <marker date="1543168970448" expanded="true" signature="3296:3541" ph="..." />
+            <marker date="1543168970448" expanded="true" signature="3553:3578" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

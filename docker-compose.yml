@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:10-alpine
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: dmd_project
+      POSTGRES_DATABASE: dmd_project
+      POSTGRES_PASSWORD: dmd_project
+    volumes:
+      - ./database.sql:/docker-entrypoint-initdb.d/schema_and_data.sql
