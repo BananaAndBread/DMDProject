@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd7706ac-e0f7-4eb4-a2d6-6d8ab77f22ea" name="Default Changelist" comment="" />
+    <list default="true" id="bd7706ac-e0f7-4eb4-a2d6-6d8ab77f22ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled (1)-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled (1)-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled (1).ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/GUI.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_requests.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,7 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DMDproject$interface.coverage" NAME="interface Coverage Results" MODIFIED="1543159918177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DMDproject$db_requests.coverage" NAME="db_requests Coverage Results" MODIFIED="1543178182677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DMDproject$db_requests.coverage" NAME="db_requests Coverage Results" MODIFIED="1543251461560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -61,19 +67,23 @@
     <session id="1197861266">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="1" />
+          <entry key="md" value="1" />
           <entry key="public" value="1" />
           <entry key="py" value="5" />
           <entry key="sql" value="3" />
@@ -83,6 +93,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
+          <entry key="Markdown" value="1" />
           <entry key="Python" value="5" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="1" />
@@ -92,7 +103,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="10763" />
+          <entry key="md" value="78" />
+          <entry key="py" value="11160" />
           <entry key="sql" value="3793" />
           <entry key="txt" value="14" />
           <entry key="yml" value="284" />
@@ -100,8 +112,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Markdown" value="78" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="10583" />
+          <entry key="Python" value="10980" />
           <entry key="SQL" value="182" />
           <entry key="Scratch" value="3791" />
           <entry key="YAML" value="284" />
@@ -126,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94ec6b18-40bf-4df7-b6ad-f7e827774291/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="178" column="23" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="30" />
+            <state relative-caret-position="3683">
+              <caret line="127" column="2" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -135,33 +148,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db_requests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+            <state relative-caret-position="2834">
+              <caret line="339" column="63" selection-start-line="339" selection-start-column="63" selection-end-line="339" selection-end-column="63" />
               <folding>
-                <marker date="1543179029189" expanded="true" signature="280:330" ph="..." />
+                <marker date="1543251347537" expanded="true" signature="546:596" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-              <folding>
-                <marker date="1543168970448" expanded="true" signature="3296:3541" ph="..." />
-                <marker date="1543168970448" expanded="true" signature="3553:3578" ph="..." />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="29">
+                <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -169,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2232">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="1914">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -225,23 +228,17 @@
                   <point x="1288.25" y="645.0" />
                   <point x="0.0" y="153.5" />
                 </edge>
-                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
-                  <point x="116.25" y="-79.5" />
-                  <point x="410.25" y="1394.0" />
-                  <point x="846.5514705882352" y="1394.0" />
-                  <point x="-123.0" y="104.5" />
-                </edge>
                 <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations_has_type_of_plug" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations">
                   <point x="-130.25" y="-79.5" />
                   <point x="3086.051470588235" y="645.0" />
                   <point x="3037.551470588235" y="645.0" />
                   <point x="143.0" y="129.0" />
                 </edge>
-                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.providers">
-                  <point x="99.75" y="-104.5" />
-                  <point x="1364.0441176470588" y="1394.0" />
-                  <point x="1392.5514705882351" y="1394.0" />
-                  <point x="0.0" y="104.5" />
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
+                  <point x="116.25" y="-79.5" />
+                  <point x="410.25" y="1394.0" />
+                  <point x="846.5514705882352" y="1394.0" />
+                  <point x="-123.0" y="104.5" />
                 </edge>
                 <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repair_used_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
                   <point x="99.75" y="-104.5" />
@@ -249,21 +246,27 @@
                   <point x="969.5514705882352" y="1394.0" />
                   <point x="0.0" y="104.5" />
                 </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.providers">
+                  <point x="99.75" y="-104.5" />
+                  <point x="1364.0441176470588" y="1394.0" />
+                  <point x="1392.5514705882351" y="1394.0" />
+                  <point x="0.0" y="104.5" />
+                </edge>
+                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.payments" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders">
+                  <point x="0.0" y="-104.5" />
+                  <point x="0.0" y="349.5" />
+                </edge>
                 <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charges" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars">
                   <point x="-91.5" y="-129.0" />
                   <point x="2568.551470588235" y="635.0" />
                   <point x="1428.25" y="635.0" />
                   <point x="140.0" y="153.5" />
                 </edge>
-                <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.payments" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders">
-                  <point x="0.0" y="-104.5" />
-                  <point x="0.0" y="349.5" />
-                </edge>
                 <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
                   <point x="-99.75" y="-104.5" />
                   <point x="1164.5441176470588" y="1394.0" />
                   <point x="1092.5514705882351" y="1394.0" />
-                  <point x="123.0" y="104.5" />
+                  <point x="122.99999999999989" y="104.5" />
                 </edge>
                 <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_cars">
                   <point x="0.0" y="-153.5" />
@@ -308,7 +311,7 @@
                   <point x="-120.75" y="129.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.13745704467353953" x="1735.9999999999998" y="811.5" />
+              <settings layout="Hierarchic Group" zoom="0.13663535439795046" x="1746.5" y="811.5" />
               <SelectedNodes>
                 <node>94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars</node>
               </SelectedNodes>
@@ -345,6 +348,9 @@
       <find>morni</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -352,8 +358,9 @@
         <option value="$PROJECT_DIR$/database.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/94ec6b18-40bf-4df7-b6ad-f7e827774291/console.sql" />
         <option value="$PROJECT_DIR$/interface.py" />
-        <option value="$PROJECT_DIR$/db_requests.py" />
         <option value="$PROJECT_DIR$/Untitled.ipynb" />
+        <option value="$PROJECT_DIR$/db_requests.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -363,12 +370,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1001" />
-    <option name="y" value="1287" />
-    <option name="width" value="1579" />
-    <option name="height" value="1171" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="86" />
+    <option name="y" value="77" />
+    <option name="width" value="1569" />
+    <option name="height" value="1187" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -492,9 +500,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="995" y="743" width="1579" height="1171" extended-state="0" />
+    <frame x="0" y="0" width="3200" height="1726" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49949136" visible="true" weight="0.27236044" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49949136" visible="true" weight="0.20817246" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50050867" side_tool="true" weight="0.14990266" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970768" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4856753" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3919214" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3229096" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32970768" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970768" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.094272844" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49949136" visible="true" weight="0.19916345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50050867" side_tool="true" weight="0.14990266" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -506,7 +538,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.3229096" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32970768" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -515,31 +547,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.0" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49949136" weight="0.24983777" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50050867" side_tool="true" weight="0.14990266" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32970768" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32411885" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39292997" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.3229096" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32970768" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.5685328" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.094272844" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,6 +557,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/interface.py" />
+    <entry file="file://$PROJECT_DIR$/Untitled.ipynb" />
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94ec6b18-40bf-4df7-b6ad-f7e827774291/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3683">
+          <caret line="127" column="2" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/psycopg2/extras.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6177">
@@ -594,23 +625,17 @@
               <point x="1288.25" y="645.0" />
               <point x="0.0" y="153.5" />
             </edge>
-            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
-              <point x="116.25" y="-79.5" />
-              <point x="410.25" y="1394.0" />
-              <point x="846.5514705882352" y="1394.0" />
-              <point x="-123.0" y="104.5" />
-            </edge>
             <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations_has_type_of_plug" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charging_stations">
               <point x="-130.25" y="-79.5" />
               <point x="3086.051470588235" y="645.0" />
               <point x="3037.551470588235" y="645.0" />
               <point x="143.0" y="129.0" />
             </edge>
-            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.providers">
-              <point x="99.75" y="-104.5" />
-              <point x="1364.0441176470588" y="1394.0" />
-              <point x="1392.5514705882351" y="1394.0" />
-              <point x="0.0" y="104.5" />
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.workshop_has_type_of_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
+              <point x="116.25" y="-79.5" />
+              <point x="410.25" y="1394.0" />
+              <point x="846.5514705882352" y="1394.0" />
+              <point x="-123.0" y="104.5" />
             </edge>
             <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.repair_used_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
               <point x="99.75" y="-104.5" />
@@ -618,21 +643,27 @@
               <point x="969.5514705882352" y="1394.0" />
               <point x="0.0" y="104.5" />
             </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.providers">
+              <point x="99.75" y="-104.5" />
+              <point x="1364.0441176470588" y="1394.0" />
+              <point x="1392.5514705882351" y="1394.0" />
+              <point x="0.0" y="104.5" />
+            </edge>
+            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.payments" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders">
+              <point x="0.0" y="-104.5" />
+              <point x="0.0" y="349.5" />
+            </edge>
             <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.charges" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars">
               <point x="-91.5" y="-129.0" />
               <point x="2568.551470588235" y="635.0" />
               <point x="1428.25" y="635.0" />
               <point x="140.0" y="153.5" />
             </edge>
-            <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.payments" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.orders">
-              <point x="0.0" y="-104.5" />
-              <point x="0.0" y="349.5" />
-            </edge>
             <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.provider_has_car_part" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_car_parts">
               <point x="-99.75" y="-104.5" />
               <point x="1164.5441176470588" y="1394.0" />
               <point x="1092.5514705882351" y="1394.0" />
-              <point x="123.0" y="104.5" />
+              <point x="122.99999999999989" y="104.5" />
             </edge>
             <edge source="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars" target="94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.types_of_cars">
               <point x="0.0" y="-153.5" />
@@ -677,7 +708,7 @@
               <point x="-120.75" y="129.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.13745704467353953" x="1735.9999999999998" y="811.5" />
+          <settings layout="Hierarchic Group" zoom="0.13663535439795046" x="1746.5" y="811.5" />
           <SelectedNodes>
             <node>94ec6b18-40bf-4df7-b6ad-f7e827774291.TABLE:dmd_project.public.cars</node>
           </SelectedNodes>
@@ -688,52 +719,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2232">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/94ec6b18-40bf-4df7-b6ad-f7e827774291/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="178" column="23" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db_requests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+        <state relative-caret-position="2834">
+          <caret line="339" column="63" selection-start-line="339" selection-start-column="63" selection-end-line="339" selection-end-column="63" />
           <folding>
-            <marker date="1543179029189" expanded="true" signature="280:330" ph="..." />
+            <marker date="1543251347537" expanded="true" signature="546:596" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-          <folding>
-            <marker date="1543168970448" expanded="true" signature="3296:3541" ph="..." />
-            <marker date="1543168970448" expanded="true" signature="3553:3578" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="29">
+            <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
